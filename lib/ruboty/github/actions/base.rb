@@ -57,7 +57,7 @@ module Ruboty
         end
 
         def api_endpoint
-          "https://#{github_host}/api/v3" if github_host
+          "https://#{github_host}" if github_host
         end
 
         def github_host
